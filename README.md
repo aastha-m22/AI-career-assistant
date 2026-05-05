@@ -111,10 +111,7 @@ The app checks `GROQ_API_KEY` first.
 - Enhanced answer suggestion generated alongside feedback
 
 ---
-##  Demo
 
-###  Dashboard Upload & Analysis
-![dashboard Upload](assets1/dashboard.png)
 
 
 ##  Tech Stack
