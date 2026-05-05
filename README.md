@@ -8,6 +8,8 @@
 ![LLM](https://img.shields.io/badge/LLM-Groq%20%2F%20OpenAI-orange)
 
 ---
+##  Live Demo
+ https://ai-career-assistant-edxryprnoyqnsokktrptwb.streamlit.app/
 
 ## Features
 
