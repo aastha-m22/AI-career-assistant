@@ -1,4 +1,4 @@
-# 🎯 AI Career Assistant
+# AI Career Assistant
 
 > A full-stack AI-powered career platform combining **NLP extraction**, **TF-IDF matching**, and **LLM-powered coaching** across five integrated modules — all in a single Streamlit dashboard.
 
@@ -9,19 +9,19 @@
 
 ---
 
-## ✨ Features
+## Features
 
 | Module | Capability |
 |---|---|
-| 📄 **Resume Analyzer** | PDF parsing (PyMuPDF), NLP extraction (spaCy + regex): skills, education, experience, contact |
-| 🔍 **JD Matcher** | TF-IDF + cosine similarity match score, skill gap analysis, keyword overlap |
-| 🤖 **AI Feedback** | LLM-powered strengths, improvement suggestions, ATS tips, priority action |
-| 🎤 **Interview Prep** | AI-generated behavioral/technical/situational Q&A, answer evaluator with STAR scoring |
-| 📅 **Study Roadmap** | Phased learning plan with resources, milestones, timeline, and daily hour estimates |
+|  **Resume Analyzer** | PDF parsing (PyMuPDF), NLP extraction (spaCy + regex): skills, education, experience, contact |
+| **JD Matcher** | TF-IDF + cosine similarity match score, skill gap analysis, keyword overlap |
+|  **AI Feedback** | LLM-powered strengths, improvement suggestions, ATS tips, priority action |
+|  **Interview Prep** | AI-generated behavioral/technical/situational Q&A, answer evaluator with STAR scoring |
+|  **Study Roadmap** | Phased learning plan with resources, milestones, timeline, and daily hour estimates |
 
 ---
 
-## 🗂 Project Structure
+##  Project Structure
 
 ```
 ai-career-assistant/
@@ -44,7 +44,7 @@ ai-career-assistant/
 
 ---
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### 1. Clone & setup
 ```bash
@@ -66,7 +66,7 @@ cp .env.example .env
 # Edit .env — add your GROQ_API_KEY (free) or OPENAI_API_KEY
 ```
 
-> 💡 **Groq is free** — get a key at [console.groq.com](https://console.groq.com). Resume parsing and JD matching work without any API key.
+>  **Groq is free** — get a key at [console.groq.com](https://console.groq.com). Resume parsing and JD matching work without any API key.
 
 ### 4. Run
 ```bash
@@ -75,7 +75,7 @@ streamlit run app.py
 
 ---
 
-## 🔐 Environment Variables
+##  Environment Variables
 
 ```env
 GROQ_API_KEY=gsk_...      # Groq (recommended — free)
@@ -86,7 +86,7 @@ The app checks `GROQ_API_KEY` first.
 
 ---
 
-## 🧠 How It Works
+##  How It Works
 
 ### Resume Parser
 1. PyMuPDF extracts raw text from PDF
@@ -111,8 +111,13 @@ The app checks `GROQ_API_KEY` first.
 - Enhanced answer suggestion generated alongside feedback
 
 ---
+##  Demo
 
-## 🛠 Tech Stack
+###  Dashboard Upload & Analysis
+![Dashboard Upload](assets1/dashborad.png)
+
+
+##  Tech Stack
 
 | Layer | Library |
 |---|---|
@@ -125,6 +130,6 @@ The app checks `GROQ_API_KEY` first.
 
 ---
 
-## 📄 License
+##  License
 
 MIT © 2024
