@@ -2,7 +2,10 @@
 modules/llm_engine.py — Unified LLM client (Groq + OpenAI via OpenAI SDK).
 All modules call _call_llm() for AI generation.
 """
-from openai import OpenAI
+from groq import Groq
+import os
+
+client = Groq(api_key=os.getenv("GROQ_API_KEY"))
 from config import llm_config
 
 def _get_client():
@@ -11,7 +14,7 @@ def _get_client():
     kwargs = {"api_key": llm_config.active_key}
     if llm_config.base_url:
         kwargs["base_url"] = llm_config.base_url
-    return OpenAI(**kwargs)
+    return Groq(**kwargs)
 
 def call_llm(system_prompt: str, user_prompt: str, max_tokens: int = None) -> str:
     """Core LLM call. Returns response text."""
